@@ -1,5 +1,6 @@
-uangSaya = int(input("masukan total uang : "))
-uangDigunakan = 15000
-uangKembalian = uangSaya - uangDigunakan
+uangAnda = int(input("masukan uang : "))
+totalBelanja = int(input("masukan total belanja : "))
 
-print("uangKembalian %i uang, uangSaya %i"%(uangKembalian, uangSaya))
+kembalian = uangAnda - totalBelanja
+
+print("kembalian Anda",uangAnda - totalBelanja)
